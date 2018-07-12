@@ -3,10 +3,12 @@
 A set of high level functions for getting things done in python3.
 
 ## Install
-`pip3 install joshpy`
+```python
+pip3 install joshpy
+```
 
 ## Usage examples
-```
+```python
 from joshpy.joshpy import *
 
 ensure_dir('test') # Will ensure a directory, test/, exists
